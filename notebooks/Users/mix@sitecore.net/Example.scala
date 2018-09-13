@@ -4,6 +4,7 @@ val df = spark.read.json("/databricks-datasets/samples/people/people.json")
 // COMMAND ----------
 
 df.show()
+display(df)
 
 // COMMAND ----------
 
